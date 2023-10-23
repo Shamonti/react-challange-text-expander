@@ -39,7 +39,7 @@ function TextExpander({
   collapsedNumWords = 10,
   expandButtonText = 'Show more',
   collapseButtonText = 'Show less',
-  buttonColor = 'blue',
+  buttonColor = '#1f09cd',
   expanded = false,
   className = '',
   children,
@@ -55,6 +55,8 @@ function TextExpander({
     background: 'transparent',
     border: 'none',
     cursor: 'pointer',
+    font: 'inherit',
+    marginLeft: '6px',
   };
 
   return (
